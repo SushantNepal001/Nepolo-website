@@ -6,13 +6,13 @@ Home
 <div id="carousel" class="carousel slide mb-3" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100 " src="/images/1.png" alt="First slide">
+      <img class="d-block w-100 " src="/images/ad1.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/images/2.png" alt="Second slide">
+      <img class="d-block w-100" src="/images/ad2.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/images/1.png" alt="Third slide">
+      <img class="d-block w-100" src="/images/ad1.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">

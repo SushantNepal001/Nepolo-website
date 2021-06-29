@@ -26,23 +26,37 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top container-fluid">
+    <div class="container d-flex justify-content-center">
+       <div class="flex-coloumn">
+        <div class="d-flex justify-content-center">
+          <img src="/images/logo.png" class="logo">
+         </div>
+        
+        <div><a href="/home">
+          <h4>
+            <span class="strong text-uppercase" >Notice house</span>
+          </h4>
+        </a>
+      </div>
+       </div>
+    
+     
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light container-fluid">
 
-      {{-- <div class="container"> --}}
-        <!-- for logo
-        <a class="navbar-brand" href="/"><img src=""></a>
-       -->
-        <a class="navbar-brand" href="/">Notice House</a>
+      
+       
+        <!-- /<a class="navbar-brand" href="/">Notice House</a> -->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav m-auto">
             <li class="nav-item active">
-              <a class="nav-link  " aria-current="page" href="/">Home</a>
+              <a class="nav-link " aria-current="page" href="/">Home</a>
             </li>
-            <li class="nav-item border-right">
+            <li class="nav-item ">
               <a class="nav-link" href="/GovermentNotice">Goverment Notice</a>
             </li>
             </li>
@@ -54,21 +68,18 @@
               <a class="nav-link" href="/Bank&FinancialNotice">Banking & Financial Notice</a>
             </li>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" style="border: none;">
               <a class="nav-link" href="/JobNotice">Job Notice</a>
             </li>
 
 
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success btn-rounded" type="submit">Search</button>
-          </form>
+          
 
         </div>
 
-        {{--
-      </div> --}}
+        
+      </div> 
 
     </nav>
   </header>
@@ -81,7 +92,7 @@
             {{-- </div> --}}
         </div>
 
-        <div class="col  my-3 mx-2 d-flex justify-content-end text-uppercase">
+        <div class="col  my-3 mx-2 d-flex align-self: flex-start text-uppercase">
           <div class="card" style="width: 18rem;">
             <div class="card-header text-uppercase">
 
@@ -101,10 +112,10 @@
       </div>
     </div>
 
-    <div class="container text-uppercase justify-content-around ">
-      <div class="row" style="width: fit-content;">
+    <div class="container text-uppercase  ">
+      <div class="row mx-3" style="width: fit-content;">
 
-        <div class="col  my-3  ">
+        <div class="col  my-3 mx-2  ">
           <div class="card" style="width: 18rem;">
             <div class="card-header ">
               <strong> latest Notice</strong>
@@ -121,7 +132,7 @@
           </div>
         </div>
 
-        <div class="col my-3 ">
+        <div class="col my-3 mx-2  ">
           <div class="card" style="width: 20rem;">
             <div class="card-header">
               <strong>Top Notice</strong>
@@ -138,7 +149,7 @@
           </div>
         </div>
 
-        <div class="col  my-3  ">
+        <div class="col  my-3 mx-2  ">
           <div class="card" style="width: 18rem;">
             <div class="card-header ">
               <strong>Popular Notice</strong>
@@ -277,17 +288,18 @@
                 </div>
               </div>
             </div>
-           
-          <!--/.Second slide-->
-         
+
+            <!--/.Second slide-->
+
+
+
+          </div>
+          <!--/.Slides-->
 
 
         </div>
-        <!--/.Slides-->
-        
 
       </div>
-
     </div>
     <!-- last part -->
     <!-- <div class="controls-top">
@@ -336,109 +348,109 @@
 
 
 
-    <footer class="text-left text-lg-start  text-white bg-dark " >
+    <footer class="text-left text-lg-start  text-white bg-dark ">
 
-            <section >
-              <div class=" container-fluid  text-md-start mt-5 py-4 align-item ">
+      <section>
+        <div class=" container-fluid  text-md-start mt-5 py-4 align-item ">
 
-      <div class="row mt-3">
+          <div class="row mt-3">
 
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+            <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
 
 
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nostrum est quidem libero.
-            Similique
-            quisquam saepe debitis vel nesciunt quibusdam aliquid cupiditate! Voluptatum quos deleniti amet!
-            Nesciunt
-            exercitationem inventore iusto.
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing
-          </p>
+              <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nostrum est quidem libero.
+                Similique
+                quisquam saepe debitis vel nesciunt quibusdam aliquid cupiditate! Voluptatum quos deleniti amet!
+                Nesciunt
+                exercitationem inventore iusto.
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h4 class="text-uppercase fw-bold mb-4">
+                About Us
+              </h4>
+              <p>
+                <a href="#!" class="text-reset">About Notice house</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"> </i>facebook</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Twitter</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Linkdin</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">feedback</a>
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <h4 class="text-uppercase fw-bold mb-4">
+                information
+              </h4>
+              <p>
+                <a href="#!" class="text-reset">how it works</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">FAQs</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Sitemap</a>
+              </p>
+
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 position">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4">
+                Support
+              </h4>
+
+              <p>
+                <a href="#!" class="text-reset">Contact Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Advetise with us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">privacy policy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">terms of use</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4 tex">
+                Contact
+              </h4>
+              <p><i class="fas fa-home me-3"></i> Kathmandu Nepal</p>
+
+              <p><i class="fas fa-phone me-3"></i> 9810300100</p>
+              <p><i class="fas fa-phone me-3"></i> 9860000000</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@noticehome.com
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-          <h4 class="text-uppercase fw-bold mb-4">
-            About Us
-          </h4>
-          <p>
-            <a href="#!" class="text-reset">About Notice house</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset"> </i>facebook</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Twitter</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Linkdin</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">feedback</a>
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-          <h4 class="text-uppercase fw-bold mb-4">
-            information
-          </h4>
-          <p>
-            <a href="#!" class="text-reset">how it works</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">FAQs</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Sitemap</a>
-          </p>
-
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 position">
-          <!-- Links -->
-          <h4 class="text-uppercase fw-bold mb-4">
-            Support
-          </h4>
-
-          <p>
-            <a href="#!" class="text-reset">Contact Us</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Advetise with us</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">privacy policy</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">terms of use</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h4 class="text-uppercase fw-bold mb-4 tex">
-            Contact
-          </h4>
-          <p><i class="fas fa-home me-3"></i> Kathmandu Nepal</p>
-
-          <p><i class="fas fa-phone me-3"></i> 9810300100</p>
-          <p><i class="fas fa-phone me-3"></i> 9860000000</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@noticehome.com
-          </p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-      </div>
       </section>
 
 
       <div class="footer-sub  pt-2 pb-2 overflow-visible " style="background-color: rgb(15, 15, 15);">
         <div class="container text-white-50 overflow-visible">
-          <div class="text-center max-h-0">
+          <div class="text-center footer-sub-div">
             <div class="mx-auto footer-arc " style="background-color: rgb(15, 15, 15);">
               <a href="#" class="p-2">
                 <img src="https://static.merojob.com/images/logo/svg/mj_logo_icon_white.svg"

@@ -10010,10 +10010,6 @@ html, body {
   height: 100%;
 }
 
-.container {
-  border: 4px solid red;
-}
-
 .navbar {
   height: 50px;
   position: relative;
@@ -10024,12 +10020,8 @@ html, body {
   border: solid red;
 }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-  border: 4px solid blue;
-}
-
 .first-container {
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 
 .footer-flex {
@@ -10052,4 +10044,22 @@ html, body {
   height: 60px;
   border-radius: 50%;
   bottom: 20px;
+}
+
+.footer-sub-div {
+  max-height: 0px;
+}
+
+.navbar {
+  border: 2px solid;
+}
+
+.nav-item {
+  border-right: 2px solid;
+  padding: 2px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
 }
